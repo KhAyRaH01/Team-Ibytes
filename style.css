@@ -184,7 +184,17 @@ body{
    width: fit-content;
    cursor: pointer;
 }
+   .questions div p:hover{
+      background-color: #1e90ff;
 
+   }
+
+.questions div p a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+}
 
 .questions2 div p {
    background-color: #1e90ff;
@@ -258,8 +268,8 @@ margin-bottom: 28px;
 }
 
 .chatcontainer .chat1 p{
-   font-size: 12px;
-   padding: 12px;
+   font-size: 14px;
+   padding: 16px;
    background-color: #1e90ff;
    border-radius: 12px;
    color: white;
@@ -280,7 +290,7 @@ margin-bottom: 28px;
 
 .chatcontainer .chat2 p{
 
-   font-size: 12px;
+   font-size: 14px;
    padding: 20px 12px;
    background-color: white;
    border-radius: 12px;
